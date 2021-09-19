@@ -1,0 +1,120 @@
+@import "_vars.scss";
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*, 
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+body {
+	min-width: 320px;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@font-face {
+  font-family: 'Rosanthie';
+  src: url('../fonts/Rosanthie.woff2') format('woff2'),
+      url('../fonts/Rosanthie.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.btn {
+  font-family: 'Libre Baskerville', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border: 3px solid #000000;
+  display: inline-block;
+  transition: all .4s;
+  &:hover {
+    background-color: rgba(#000, .5);
+    color: #fff;
+  }
+}
+
+
+.right-section {
+
+  padding-top: 75px;
+  margin-left: 95px;
+
+  // .right-section__title
+
+  &__title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 33px;
+    max-width: 305px;
+    font-weight: 600;
+  }
+
+  // .right-section__text
+
+  &__text {
+    padding-left: 125px;
+    max-width: 417px;
+  }
+}
+
+.left-section {
+
+  max-width: 540px;
+  width: 100%;
+  margin-right: 30px;
+
+  // .left-section__title
+
+  &__title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    max-width: 290px;
+    margin: 91px 30px 32px auto;
+  }
+
+  // .left-section__text
+
+  &__text {
+    padding-left: 95px;
+    max-width: 370px;
+  }
+}
+
+.best-section {
+
+  display: flex;
+
+  // .best-section__img
+
+  &__img {
+  }
+}
+
+
+.slider-arr  {
+  position: absolute;
+  z-index: 4;
+  cursor: pointer;
+}

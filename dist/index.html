@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Serif+JP:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/libs.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css"/>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+
+          <a class="header__logo" href="#">
+            <img src="images/header-logo.svg" alt="" />
+          </a>
+
+          <div class="header__btn">
+            <div class="header__btn-line"></div>
+            <div class="header__btn-line"></div>
+            <div class="header__btn-line"></div>
+          </div>
+          <div class="header__city">
+            <a class="header__city-selected" href="#">Новочебоксарск</a>
+            <p class="header__city-text">Ваш город</p>
+          </div>
+          <div class="header__showroom">
+            <div class="header__showroom-name">Шоурум Artplay</div>
+            <a class="header__showroom-address" href="#">Нижняя Сыромятническая, 10с2</a>
+          </div>
+          <div class="header__tel">
+            <a class="header__tel-number" href="tel:+74950231301">+7 495 023 13 01</a>
+            <p class="header__tel-text">Ежедневно 10:00 - 22:00</p>
+          </div>
+          <a class="header__search" href="#">
+            <img class="header__search-img" src="images/header-search.svg" alt=""/>
+          </a>
+          <a class="header__user" href="#">
+            <img class="header__user-img" src="images/user-icon.svg" alt="" />
+          </a>
+          <a class="header__button btn" href="#">обратный звонок</a>
+
+          <div class="header__cart">
+            <a class="header__cart-link" href="#">
+              <img src="images/cart-img.svg" alt="" />
+            </a>
+            <div class="header__cart-box">
+              <a class="header__cart-name" href="#">Корзина</a>
+              <div class="header__cart-price">18 000₽</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <a class="header__logo" href="#">
+            <img src="images/header-logo.svg" alt="" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Каталог наличия</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Информация</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">мебель на заказ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__cart">
+            <a class="header__cart-link" href="#">
+              <img src="images/cart-img.svg" alt="" />
+            </a>
+            <div class="header__cart-box">
+              <a class="header__cart-name" href="#">Корзина</a>
+              <div class="header__cart-price">18 000₽</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mob-menu">
+        <ul class="mob-menu__list">
+          <li class="mob-menu__list-item">
+            <a class="header__button btn" href="#">обратный звонок</a>
+          </li>
+          <li class="mob-menu__list-item header__city">
+            <a class="header__city-selected" href="#">Новочебоксарск</a>
+            <p class="header__city-text">Ваш город</p>
+          </li>
+          <li class="mob-menu__list-item header__showroom">
+            <div class="header__showroom-name">Шоурум Artplay</div>
+            <a class="header__showroom-address" href="#">Нижняя Сыромятническая, 10с2</a>
+          </li>
+          <li class="mob-menu__list-item header__tel">
+            <a class="header__tel-number" href="tel:+74950231301">+7 495 023 13 01</a>
+            <p class="header__tel-text">Ежедневно 10:00 - 22:00</p>
+          </li>
+          <li class="mob-menu__list-item">
+            <a class="menu__list-link" href="#">Каталог наличия</a>
+          </li>
+          <li class="mob-menu__list-item">
+            <a class="menu__list-link" href="#">Информация</a>
+          </li>
+          <li class="mob-menu__list-item">
+            <a class="menu__list-link" href="#">мебель на заказ</a>
+          </li>
+          <li class="mob-menu__list-item"></li>
+        </ul>
+      </div>
+    </header>
+    <section class="top">
+      <div class="container">
+        <div class="top__inner">
+          <div class="top__content">
+            <h1 class="top__title animate__animated animate__fadeIn">
+              Авторская мебель
+              <p>Design</p>
+            </h1>
+            <div class="top__subtitle">из слэбов редких пород древесины</div>
+            <p class="top__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="top__img animate__animated animate__fadeIn animate__delay-1s">
+            <img src="images/content/top-bg.png" alt="" />
+          </div>
+
+          <div class="top__video-box animate__animated animate__fadeIn animate__delay-2s">
+            <div class="top__video">
+              <a class="top__video-play" data-fancybox href="https://youtu.be/zf59Rg_KYk8">
+                <img src="images/play-btn.png" alt="" /></a>
+            </div>
+            <div class="top__video-text">
+              <a class="top__video-link" href="#">Посмотрите на производство WOODCRAFTSTUDIO</a>
+            </div>
+          </div>
+        </div>
+        <div class="top__benefits">
+          <div class="top__benefits-item top__benefits-item--1">
+            <img class="top__benefits-img" src="images/top-benefits-1.svg" />
+            <p class="top__benefits-text">
+              Вся мебель в наличии в шоуруме ARTPLAY по адресу ул. Нижняя
+              Сыромятинская, д.10с2
+            </p>
+          </div>
+          <div class="top__benefits-item top__benefits-item--2">
+            <img class="top__benefits-img" src="images/top-benefits-2.svg" />
+            <p class="top__benefits-text">
+              50 лет минимальный срок эксплуатации или вернем деньги
+            </p>
+          </div>
+          <div class="top__benefits-item top__benefits-item--3">
+            <img class="top__benefits-img" src="images/top-benefits-3.svg" />
+            <p class="top__benefits-text">
+              Наш специалист бесплатно приедет в любое время и произведет замеры
+              с консультацией
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="greet">
+      <div class="container">
+        <div class="greet__inner">
+          <img class="greet__img" src="images/content/greet-img.jpg" alt="" />
+          <div class="greet__text">
+            <h3 class="greet__text-title">
+              Дарим в подарок средство по уходу за слэбом при первом знакомстве!
+            </h3>
+            <p class="greet__text-info">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="greet__survey">
+            <div class="greet__survey-box">
+              <div class="greet__survey-title">
+                Ответьте на несколько вопросов
+              </div>
+              <div class="greet__survey-body greet__survey-body--1 active">
+                <div class="greet__survey-question">А чем занимаетесь Вы?</div>
+                <div class="greet__survey-options">
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--1" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я арт-директор ресторана</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--1" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я делаю ремонт у себя дома</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--1" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я работаю в офисе</p>
+                  </label>  
+                </div>
+                <button class="greet__survey-btn btn">СЛЕДУЮЩИЙ ВОПРОС</button>  
+              </div>
+
+              <div class="greet__survey-body greet__survey-body--2">
+                <div class="greet__survey-question">А чем занимаетесь Вы?</div>
+                <div class="greet__survey-options">
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--2" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я арт-директор ресторана</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--2" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я делаю ремонт у себя дома</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--2" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я работаю в офисе</p>
+                  </label>  
+                </div>
+                <button class="greet__survey-btn btn">СЛЕДУЮЩИЙ ВОПРОС</button>  
+              </div>
+
+              <div class="greet__survey-body greet__survey-body--3">
+                <div class="greet__survey-question">А чем занимаетесь Вы?</div>
+                <div class="greet__survey-options">
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--3" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я арт-директор ресторана</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--3" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я делаю ремонт у себя дома</p>
+                  </label>
+    
+                  <label class="greet__survey-option">
+                    <input class="greet__survey-radio greet__survey-radio--3" type="radio" name="job" required/>
+                    <span class="greet__survey-fake"></span>
+                    <p class="greet__survey-answ">Я работаю в офисе</p>
+                  </label>  
+                </div>
+                <a class="greet__survey-btn btn" href="#">Просмотреть результаты</a>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="best">
+      <div class="container">
+        <p class="best__label">ЛУЧШИЕ В СВОЕМ ДЕЛЕ</p>
+        <h2 class="best__title">
+          Что позволило нам за 5 лет стать производителем №1 в мире эксклюзивной
+          мебели из редких пород дерева?
+        </h2>
+        <div class="best__top">
+          <div class="best__top-images wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <img class="best__top-img" src="images/best-top-img.jpg" alt="" />
+          </div>
+          <div class="right-section wow animate__animated animate__fadeInRight" data-wow-offset="200">
+            <div class="right-section__title">
+              Полностью сертифицированная продукция
+            </div>
+            <p class="right-section__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+        </div>
+
+        <div class="best-section best-section--1">
+          <div class="left-section wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <div class="left-section__title">
+              Конкурентные цены при высоком качестве и широком ассортименте
+            </div>
+            <p class="left-section__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+            <a class="best__btn btn" href="#">В каталог</a>
+          </div>
+          <div class="best-section__img wow animate__animated animate__fadeInRight" data-wow-offset="200">
+            <img src="images/content/best-1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="best-section best-section--2">
+          <div class="best-section__img wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <img src="images/content/best-2.jpg" alt="" />
+          </div>
+          <div class="right-section wow animate__animated animate__fadeInRight" data-wow-offset="200">
+            <div class="right-section__title">
+              Изготавливаем мебель любой сложности в течение указанного срока в
+              договоре
+            </div>
+            <div class="right-section__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </div>
+          </div>
+        </div>
+
+        <div class="best-section best-section--3">
+          <div class="left-section wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <div class="left-section__title">
+              Постоянный контроль этапов работ перед заказчиком
+            </div>
+            <p class="left-section__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="best-section__img wow animate__animated animate__fadeInRight" data-wow-offset="200">
+            <img src="images/content/best-3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="best-section best-section--4">
+          <div class="best-section__img wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <img src="images/content/best-4.jpg" alt="" />
+          </div>
+          <div class="right-section wow animate__animated animate__fadeInRight" data-wow-offset="200">
+            <div class="right-section__title">
+              Первоклассные специалисты готовы ответить на любые ваши вопросы
+            </div>
+            <div class="right-section__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal">
+      <div class="container">
+        <div class="personal__bg">
+          <div class="personal__remaining">
+            <p class="personal__remaining-text">Осталось вопросов 2 из 3</p>
+            <div class="personal__remaining-progress">
+              <div class="personal__remaining-line personal__remaining-line--1 passed"></div>
+              <div class="personal__remaining-line personal__remaining-line--2"></div>
+              <div class="personal__remaining-line personal__remaining-line--3"></div>
+            </div>
+          </div>
+        </div>
+        <h3 class="personal__title">Соберите свой индивидуальный стол</h3>
+        <div class="personal__test personal__test--1 active">
+          <div class="personal__question">Какой формы должен быть стол?</div>
+          <div class="personal__options">
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--1" type="radio" name="type" required/>
+              
+              <div class="personal__item-img">
+                <img src="images/content/personal-1.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Прямоугольный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--1" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-2.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Квадратный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--1" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-3.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Круглый</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+          </div>
+          <div class="personal__btn-wrapper">
+            <button class="personal__btn btn">Следующий вопрос</button>
+          </div>
+        </div>
+
+        <div class="personal__test personal__test--2">
+          <div class="personal__question">Какой формы должен быть стол?</div>
+          <div class="personal__options">
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--2" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-1.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Прямоугольный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--2" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-2.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Квадратный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--2" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-3.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Круглый</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+          </div>
+          <div class="personal__btn-wrapper">
+            <button class="personal__btn btn">Следующий вопрос</button>
+          </div>
+        </div>
+
+        <div class="personal__test personal__test--3">
+          <div class="personal__question">Какой формы должен быть стол?</div>
+          <div class="personal__options">
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--3" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-1.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Прямоугольный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--3" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-2.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Квадратный</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+            <div class="personal__item">
+              <input class="personal__item-checkbox personal__item-checkbox--3" type="radio" name="type" required/>
+
+              <div class="personal__item-img">
+                <img src="images/content/personal-3.jpg" alt="" />
+              </div>
+              <div class="personal__item-title">Круглый</div>
+              <p class="personal__item-text">
+                Подберите все необходимое для оформления завершенного,
+                гармоничного, стильного и уютного интерьера своей квартиры или
+                дома в одном месте.
+              </p>
+            </div>
+          </div>
+          <div class="personal__btn-wrapper">
+            <a class="personal__btn btn" href="#">Просмотреть результаты</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="personal__fullscreen" style="background-image: url(images/fullscreen.jpg)"></div>
+    </section>
+
+    <section class="works">
+      <div class="container">
+        <div class="works__top">
+          <div class="works__content wow animate__animated animate__fadeInLeft" data-wow-offset="150">
+            <h3 class="works__title">
+              Реализованные проекты для бизнеса и частных клиентов
+              <p>Cases</p>
+            </h3>
+            <p class="works__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="works__img-box wow animate__animated animate__fadeInRight" data-wow-offset="250">
+            <img class="works__img" src="images/works/works-1.jpg" alt="" />
+            <p class="works__img-text">
+              г.Москва, Екатерина
+              <span>Журнальный стол</span>
+            </p>
+          </div>
+        </div>
+        <div class="works__images-section works__images-section--1">
+          <div class="works__img-box wow animate__animated animate__fadeInLeft" data-wow-offset="200">
+            <img class="works__img" src="images/works/works-2.jpg" alt="" />
+            <p class="works__img-text">
+              г.Москва, Екатерина
+              <span>Журнальный стол</span>
+            </p>
+          </div>
+        </div>
+        <div class="works__images-section works__images-section--2">
+          <div class="works__img-box wow animate__animated animate__fadeInRight" data-wow-offset="150">
+            <img class="works__img" src="images/works/works-3.jpg" alt="" />
+            <p class="works__img-text">
+              г.Москва, Екатерина
+              <span>Журнальный стол</span>
+            </p>
+          </div>
+        </div>
+        <div class="works__images-section works__images-section--3">
+          <div class="works__img-box wow animate__animated animate__fadeInLeft" data-wow-offset="250">
+            <img class="works__img" src="images/works/works-4.jpg" alt="" />
+            <p class="works__img-text">
+              г.Москва, Екатерина
+              <span>Журнальный стол</span>
+            </p>
+          </div>
+        </div>
+        <div class="works__images-section works__images-section--4">
+          <div class="works__img-box wow animate__animated animate__fadeInRight" data-wow-offset="300">
+            <img class="works__img" src="images/works/works-5.jpg" alt="" />
+            <p class="works__img-text">
+              г.Москва, Екатерина
+              <span>Журнальный стол</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order">
+      <div class="container">
+        <div class="order__inner">
+          <div class="order__images-left">
+            <img class="order__img" src="images/order-left.jpg" alt="" />
+
+          </div>
+          <div class="order__content">
+            <h2 class="order__title">
+              Реализуем стол под ваш дизайн проект
+              <p>Design</p>
+            </h2>
+            <p class="order__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+            <a class="order__btn btn" href="#">Оставить заявку</a>
+          </div>
+          <div class="order__images-right">
+            <img class="order__img" src="images/content/order-right.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container">
+        <h2 class="team__title">
+          Команда настоящих професcионалов
+          <p>Team</p>
+        </h2>
+        <div class="team-slider">
+          <div class="team-slider__item">
+            <div class="team-slider__item-inner">
+              <div class="team-slider__item-num">1/4</div>
+              <div class="team-slider__item-img">
+                <img src="images/team-1.jpg" alt="" />
+              </div>
+              <div class="team-slider__item-info">
+                <div class="team-slider__item-name">Андрей Иванов</div>
+                <p class="team-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="team-slider__item">
+            <div class="team-slider__item-inner">
+              <div class="team-slider__item-num">2/4</div>
+              <div class="team-slider__item-img">
+                <img src="images/team-1.jpg" alt="" />
+              </div>
+              <div class="team-slider__item-info">
+                <div class="team-slider__item-name">Андрей Иванов</div>
+                <p class="team-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="team-slider__item">
+            <div class="team-slider__item-inner">
+              <div class="team-slider__item-num">3/4</div>
+              <div class="team-slider__item-img">
+                <img src="images/team-1.jpg" alt="" />
+              </div>
+              <div class="team-slider__item-info">
+                <div class="team-slider__item-name">Андрей Иванов</div>
+                <p class="team-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="team-slider__item">
+            <div class="team-slider__item-inner">
+              <div class="team-slider__item-num">4/4</div>
+              <div class="team-slider__item-img">
+                <img src="images/team-1.jpg" alt="" />
+              </div>
+              <div class="team-slider__item-info">
+                <div class="team-slider__item-name">Андрей Иванов</div>
+                <p class="team-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fabrication">
+      <div class="container">
+        <div class="fabrication__label">О НАШЕМ ПРОИЗВОДСТВЕ</div>
+        <h3 class="fabrication__title">
+          Производство эксклюзивной мебели из редких пород дерева
+          <p>Production</p>
+        </h3>
+        <div class="fabrication-slider">
+          <div class="fabrication-slider__item">
+            <img
+              class="fabrication-slider__img"
+              src="images/fabrication-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="fabrication-slider__item">
+            <img
+              class="fabrication-slider__img"
+              src="images/fabrication-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="fabrication-slider__item">
+            <img
+              class="fabrication-slider__img"
+              src="images/fabrication-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="fabrication-slider__item">
+            <img
+              class="fabrication-slider__img"
+              src="images/fabrication-1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials">
+      <div class="container">
+        <div class="materials__inner">
+          <div class="materials__images-box">
+            <img class="materials__img-left wow animate__animated animate__fadeIn" src="images/content/materials-1.jpg" data-wow-offset="100" alt=""/>
+            <img class="materials__img-right wow animate__animated animate__fadeIn" src="images/content/materials-2.jpg" data-wow-offset="200" alt="" />
+          </div>
+          <div class="materials__content">
+            <h2 class="materials__title">
+              Используемые материалы для производства
+              <p>Materials</p>
+            </h2>
+            <div class="materials__text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </div>
+          </div>
+        </div>
+        <div class="materials-nav">
+          <div class="materials-nav__item">
+            <div class="materials-nav__item-text materials-nav__item-text--0">Древесина</div>
+          </div>
+          <div class="materials-nav__item">
+            <div class="materials-nav__item-text materials-nav__item-text--1">Река</div>
+          </div>
+          <div class="materials-nav__item">
+            <div class="materials-nav__item-text materials-nav__item-text--2">Покрытие</div>
+          </div>
+          <div class="materials-nav__item">
+            <div class="materials-nav__item-text materials-nav__item-text--3">Подстолье</div>
+          </div>
+        </div>
+        <div class="materials-slider">
+          <div class="materials-slider__item">
+            <div class="materials-slider__item-inner">
+              <img class="materials-slider__item-img" src="images/content/materials-slider-1.jpg" alt=""/>
+              <div class="materials-slider__item-info">
+                <div class="materials-slider__item-type">Древесина</div>
+                <p class="materials-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="materials-slider__item">
+            <div class="materials-slider__item-inner">
+              <img class="materials-slider__item-img" src="images/content/materials-slider-1.jpg" alt=""/>
+              <div class="materials-slider__item-info">
+                <div class="materials-slider__item-type">РЕКА</div>
+                <p class="materials-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="materials-slider__item">
+            <div class="materials-slider__item-inner">
+              <img class="materials-slider__item-img" src="images/content/materials-slider-1.jpg" alt=""/>
+              <div class="materials-slider__item-info">
+                <div class="materials-slider__item-type">Покрытие</div>
+                <p class="materials-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="materials-slider__item">
+            <div class="materials-slider__item-inner">
+              <img class="materials-slider__item-img" src="images/content/materials-slider-1.jpg" alt=""/>
+              <div class="materials-slider__item-info">
+                <div class="materials-slider__item-type">Подстолье</div>
+                <p class="materials-slider__item-text">
+                  Подберите все необходимое для оформления завершенного,
+                  гармоничного, стильного и уютного интерьера своей квартиры или
+                  дома в одном месте.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how">
+      <div class="container">
+        <h2 class="how__title">Как мы работаем</h2>
+        <div class="how__row">
+          <div class="how__item">
+            <div class="how__item-num">01</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="how__item">
+            <div class="how__item-num">02</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="how__item">
+            <div class="how__item-num">03</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+        </div>
+        <div class="how__row">
+          <div class="how__item">
+            <div class="how__item-num">04</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="how__item">
+            <div class="how__item-num">05</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+          <div class="how__item">
+            <div class="how__item-num">06</div>
+            <div class="how__item-title">Расчет изделия</div>
+            <p class="how__item-text">
+              Подберите все необходимое для оформления завершенного,
+              гармоничного, стильного и уютного интерьера своей квартиры или
+              дома в одном месте.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="map">
+      <div class="map__note">
+        <p class="map__note-text">Посетите наш шоурум</p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1488.0258290948507!2d37.670995479605324!3d55.753153365328075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a9470b2aff1%3A0xde59f67e158c0118!2z0J3QuNC20L3Rj9GPINCh0YvRgNC-0LzRj9GC0L3QuNGH0LXRgdC60LDRjyDRg9C7LiwgMTEg0LrQvtGA0L_Rg9GBIDEsINCc0L7RgdC60LLQsCwgMTA1MTIw!5e0!3m2!1sru!2sru!4v1626962585775!5m2!1sru!2sru"
+        width="100%"
+        height="445"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
