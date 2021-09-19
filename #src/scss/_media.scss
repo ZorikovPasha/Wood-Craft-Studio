@@ -369,6 +369,11 @@
 
 
 
+  .fabrication-slider {
+    .slick-dots {
+      display: none;
+    }
+  }
   .fabrication__title {
     font-size: 34px;
     line-height: 45px;
