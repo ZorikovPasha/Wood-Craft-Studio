@@ -23,10 +23,10 @@ $(function(){
     nextArrow: '<img class="slider-arr slider-arr-right" src="images/slider-arr-right.svg" alt=""></img>',
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 991,
         settings: {
           dots: true,
-          // arrows: false,
+          arrows: false,
         }
       }
     ]
